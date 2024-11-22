@@ -45,8 +45,25 @@ int main(){
     /**
      * P0 -> P1
      * P0 -> P2
+     * P0 -> P4
      * P1 -> P3
+     * P1 -> P5
+     * P2 -> P6
+     * P3 -> P7
      */
-    
+
+    printf("Hello, fork()!\n");
     return 0;
 }
+
+/**
+ * 출력 결과
+Hello, fork()!
+Hello, fork()!
+Hello, fork()!
+Hello, fork()!
+Hello, fork()!
+Hello, fork()!
+Hello, fork()!
+Hello, fork()!
+ */
